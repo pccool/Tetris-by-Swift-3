@@ -14,6 +14,10 @@
 		B60894C31E6D970100479689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60894C11E6D970100479689 /* LaunchScreen.storyboard */; };
 		B60894CE1E6D970100479689 /* Tetris_by_Swift_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60894CD1E6D970100479689 /* Tetris_by_Swift_3Tests.swift */; };
 		B60894D91E6D970100479689 /* Tetris_by_Swift_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60894D81E6D970100479689 /* Tetris_by_Swift_3UITests.swift */; };
+		B60894E71E6D977D00479689 /* images in Resources */ = {isa = PBXBuildFile; fileRef = B60894E61E6D977D00479689 /* images */; };
+		B60894EA1E6D979300479689 /* levelup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B60894E81E6D979300479689 /* levelup.mp3 */; };
+		B60894EB1E6D979300479689 /* Smokers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B60894E91E6D979300479689 /* Smokers.mp3 */; };
+		B60894ED1E6D97E800479689 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60894EC1E6D97E800479689 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		B60894D41E6D970100479689 /* Tetris by Swift 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tetris by Swift 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B60894D81E6D970100479689 /* Tetris_by_Swift_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tetris_by_Swift_3UITests.swift; sourceTree = "<group>"; };
 		B60894DA1E6D970100479689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60894E61E6D977D00479689 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		B60894E81E6D979300479689 /* levelup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = levelup.mp3; sourceTree = "<group>"; };
+		B60894E91E6D979300479689 /* Smokers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Smokers.mp3; sourceTree = "<group>"; };
+		B60894EC1E6D97E800479689 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 			children = (
 				B60894B81E6D970100479689 /* AppDelegate.swift */,
 				B60894BA1E6D970100479689 /* ViewController.swift */,
+				B60894EC1E6D97E800479689 /* GameView.swift */,
 				B60894BC1E6D970100479689 /* Main.storyboard */,
 				B60894BF1E6D970100479689 /* Assets.xcassets */,
 				B60894C11E6D970100479689 /* LaunchScreen.storyboard */,
 				B60894C41E6D970100479689 /* Info.plist */,
+				B60894E61E6D977D00479689 /* images */,
+				B60894E81E6D979300479689 /* levelup.mp3 */,
+				B60894E91E6D979300479689 /* Smokers.mp3 */,
 			);
 			path = "Tetris by Swift 3";
 			sourceTree = "<group>";
@@ -232,7 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B60894E71E6D977D00479689 /* images in Resources */,
+				B60894EB1E6D979300479689 /* Smokers.mp3 in Resources */,
 				B60894C31E6D970100479689 /* LaunchScreen.storyboard in Resources */,
+				B60894EA1E6D979300479689 /* levelup.mp3 in Resources */,
 				B60894C01E6D970100479689 /* Assets.xcassets in Resources */,
 				B60894BE1E6D970100479689 /* Main.storyboard in Resources */,
 			);
@@ -260,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B60894BB1E6D970100479689 /* ViewController.swift in Sources */,
+				B60894ED1E6D97E800479689 /* GameView.swift in Sources */,
 				B60894B91E6D970100479689 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
