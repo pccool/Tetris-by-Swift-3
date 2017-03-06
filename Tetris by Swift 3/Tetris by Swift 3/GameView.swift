@@ -39,6 +39,7 @@ class GameView: UIView {
     let CELL_SIZE: Int
     // 定义绘制网络的笔触的粗细
     let STROKE_WIDTH：Double = 1
+    // 修正网格显示的参数
     let GRID_OFFSET: Int
     
     let BASE_SPEED: Double = 0.6
@@ -335,7 +336,7 @@ class GameView: UIView {
                     
                     alert.addAction(defaultAction)
                     // 获取该UI控件所在的视图控制器
-//                    let nextResponder = self.superview?.nextResponder() as! UIViewController
+//2.0                    let nextResponder = self.superview?.nextResponder() as! UIViewController
                     let nextResponder = self.superview?.next as! UIViewController
                     // 显示提示框
                     nextResponder.present(alert, animated: true, completion: nil)
